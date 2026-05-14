@@ -146,10 +146,11 @@ div[data-baseweb="select"] > div {
 """, unsafe_allow_html=True)
 
 # ---------------- FETCH POSTER ---------------- #
+api_key=st.secrets["TMDB_API_KEY"]
 def fetch_poster(movie_id):
     try:
         response = requests.get(
-            'https://api.themoviedb.org/3/movie/{}?api_key=c97c933150d5547fae997e27aae957fa&language=en-US'.format(movie_id)
+            'https://api.themoviedb.org/3/movie/{}?api_key={}&language=en-US'.format(movie_id,api_key)
         )
 
         data = response.json()

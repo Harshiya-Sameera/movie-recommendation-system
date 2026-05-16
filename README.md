@@ -44,7 +44,7 @@ movie-recommendation-system/
 ├── .gitignore
 ├── .gitattributes
 └── README.md
-
+```
 ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/Harshiya-Sameera/movie-recommendation-system.git

@@ -49,20 +49,28 @@ movie-recommendation-system/
 
 ## ⚙️ Installation
 
-1️⃣ Clone Repository
+1️⃣ Clone Repository:
+
 git clone https://github.com/Harshiya-Sameera/movie-recommendation-system.git
-2️⃣ Move to Project Folder
+
+2️⃣ Move to Project Folder:
+
 cd movie-recommendation-system
-3️⃣ Install Dependencies
+
+3️⃣ Install Dependencies:
+
 pip install -r requirements.txt
-4️⃣ Add TMDB API Key
+
+4️⃣ Add TMDB API Key:
 Create folder:
 .streamlit
 Inside it create file:
 secrets.toml
 Add:
 TMDB_API_KEY="your_api_key_here"
-5️⃣ Run Project
+
+5️⃣ Run Project:
+
 streamlit run main.py
 
 ---

@@ -47,7 +47,8 @@ movie-recommendation-system/
 ```
 ---
 
-⚙️ Installation
+## ⚙️ Installation
+
 1️⃣ Clone Repository
 git clone https://github.com/Harshiya-Sameera/movie-recommendation-system.git
 2️⃣ Move to Project Folder
@@ -66,7 +67,7 @@ streamlit run main.py
 
 ---
 
-📖 How It Works
+## 📖 How It Works
 
 -This project uses a content-based recommendation system.
 -Movies are converted into vectors
@@ -75,7 +76,7 @@ streamlit run main.py
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Harshiya Sameera Shaik
 GitHub: https://github.com/Harshiya-Sameera

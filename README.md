@@ -45,6 +45,8 @@ movie-recommendation-system/
 ├── .gitattributes
 └── README.md
 ```
+---
+
 ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/Harshiya-Sameera/movie-recommendation-system.git
@@ -53,20 +55,16 @@ cd movie-recommendation-system
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 4️⃣ Add TMDB API Key
-
 Create folder:
-
 .streamlit
-
 Inside it create file:
-
 secrets.toml
-
 Add:
-
 TMDB_API_KEY="your_api_key_here"
 5️⃣ Run Project
 streamlit run main.py
+
+---
 
 📖 How It Works
 
@@ -75,11 +73,14 @@ streamlit run main.py
 -Cosine similarity is calculated
 -Similar movies are recommended based on similarity scores
 
+---
+
 👩‍💻 Author
 
 Harshiya Sameera Shaik
 GitHub: https://github.com/Harshiya-Sameera
 
-⭐ If you liked this project
+---
 
+⭐ If you liked this project
 Give it a ⭐ on GitHub!
